@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Componente extends Component {
+class PersonalCard extends Component {
     render (){
         const {firstName, lastName, age, hairColor} = this.props;
         return (
@@ -12,4 +12,4 @@ class Componente extends Component {
         );
     }
 }
-export default Componente;
+export default PersonalCard;
